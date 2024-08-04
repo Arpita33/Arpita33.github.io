@@ -200,13 +200,16 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">KVBench: Workload Generator Tool for NoSQL Systems</h3>
-                            <div class="subheading mb-3">Subhadeep Sarkar, Zichen Zhu, Arpita Saha, Manos Athanassoulis</div>
+                            <h3 class="mb-0">KVBench: A Key-Value Benchmarking Suite</h3>
+                            <div class="subheading mb-3">Zichen Zhu, Arpita Saha, Manos Athanassoulis, Subhadeep Sarkar</div>
+                            <p>DBTest 2024 (ACM SIGMOD Workshop) <a href="https://dl.acm.org/doi/abs/10.1145/3662165.3662765">(PAPER LINK)</a></p>
                             <p>
                                 This work aims to build a workload generator tool that can produce synthetic workload for NoSQL datasystems.
-                                It is integral in stress testing NoSQL systems for correctness and performance benchmarking. 
-                                The tool provides support for creating workloads with all operations that can be performed on Key-Value stores.
-                                We are currently writing the manuscript to submit to DBTest'24.
+                                It is integral to the stress testing NoSQL systems for correctness and performance benchmarking. This tool fills
+                                the gap between classical workload generators and complex real-life workloads by offering a richer array of knobs,
+                                such as the proportion of empty point queries, point and range deletes with selectivity specified, customized distributions 
+                                for queries and updates, etc. Therefore this tool provides better support for emulating real-life workloads compared  
+                                to the state-of-the key-value workload generators.    
                             </p>
                             </div>
                         <div class="flex-shrink-0"><span class="text-primary">February 2023 - Present</span></div>
